@@ -1,17 +1,19 @@
 {
-    "name": "brady/brady",
-    "description": "brady ",
-    "require": {
-        "php": "^7.2",
-        "ext-json": "*"
-    },
-    "license": "MIT",
+    "name": "brady/test",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
     "authors": [
         {
-            "name": "Brady Wang",
+            "name": "brady",
             "email": "brady.wang@qq.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload":{
         "psr-4":{
             "Brady\\":"src/"
